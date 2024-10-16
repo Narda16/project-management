@@ -11,7 +11,7 @@ export default function Tasks({ tasks, onAdd, onDelete }) {
         </p>
       )}
       {tasks.length > 0 && (
-        <ul className="mt-8">
+        <ul className="mt-8 pb-4">
           {tasks.map((task) => (
             <li
               key={task.id}
